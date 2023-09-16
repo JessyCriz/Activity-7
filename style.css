@@ -1,0 +1,21 @@
+.custom-bg-color {
+    background-color: #e04392 !important;
+}
+.square-shape {
+    background-color: #747274;
+    display: inline-block; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+}
+
+.carousel-item
+{
+    height:100%;
+
+}
+section {
+    background-color: #aaa8a9;
+    padding: 8px;
+    text-align: center;
+}
+

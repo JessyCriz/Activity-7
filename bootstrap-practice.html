@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg custom-bg-color">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white fw-bold square-shape" href="#">Contey Delivery</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-white" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-white" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-white" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Hero Section -->
+    <header >
+        <div class="container-flex">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Photos/Beef.png" class="d-block w-100" alt="beef">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Savor. Deliver. Enjoy.</h5>
+                  <p>Delicious Moments, Delivered to Your Doorstep!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Photos/burger.png" class="d-block w-100" alt="burger">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Savor. Deliver. Enjoy.</h5>
+                  <p>Delicious Moments, Delivered to Your Doorstep!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Photos/pasta.png" class="d-block w-100" alt="pasta">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Savor. Deliver. Enjoy.</h5>
+                  <p>Delicious Moments, Delivered to Your Doorstep!</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+    </header>
+    <!-- Food Products -->
+    <section>
+        <h3 class="text-center">Order Now for Bliss!</h3>
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center flex-wrap">          
+             <div class="row">
+                    <div class="col-md-4 mb-4">
+                     <div class="card" style="width: 18rem;">
+                         <img src="Photos/Soup.png" class="card-img-top" alt="Soup Contey Pork">
+                         <div class="card-body">
+                              <h5 class="card-title">Soup Contey Pork</h5>
+                             <p class="card-text">A comforting herbs simmered to perfection, delivering warmth and flavor in every spoonful.</p>
+                             <a href="#" class="btn btn-primary">Order Now</a>
+                         </div>
+                     </div>
+                 </div>
+        
+                    <div class="col-md-4 mb-4">
+                        <div class="card" style="width: 18rem;">
+                         <img src="Photos/pancit.png" class="card-img-top" alt="Contey Shrimp">
+                         <div class="card-body">
+                               <h5 class="card-title">Pancit Contey Shrimp</h5>
+                                 <p class="card-text">A comforting herbs simmered to perfection, delivering warmth and flavor in every spoonful.</p>
+                            <a href="#" class="btn btn-primary">Order Now</a>
+                         </div>
+                     </div>
+                    </div>
+        
+                    <div class="col-md-4 mb-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="Photos/soup2.png" class="card-img-top" alt="Contey Soup">
+                            <div class="card-body">
+                                <h5 class="card-title">Original Contey Soup</h5>
+                             <p class="card-text">A comforting herbs simmered to perfection, delivering warmth and flavor in every spoonful.</p>
+                             <a href="#" class="btn btn-primary">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+    <!-- Services -->
+    <section>
+        <h3 class="text-center">Our Services</h3>
+        <div class="card mb-3">
+            <img src="https://images.pexels.com/photos/7706446/pexels-photo-7706446.jpeg?auto=compress&cs=tinysrgb&w=1600" class="card-img-top" alt="food delivery">
+            <div class="card-body">
+              <h5 class="card-title">Online Ordering System</h5>
+              <p class="card-text">Provide a user-friendly website and mobile app where customers can browse menus, place orders, and make payments online. Ensure that the platform is responsive and easy to navigate.</p>
+              <p class="card-text"><small class="text-body-secondary">Contact us for more info.</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Delivery Fleet</h5>
+              <p class="card-text">Build or partner with a reliable delivery fleet, which may include drivers, cyclists, or even third-party delivery services like DoorDash or Uber Eats.</p>
+              <p class="card-text"><small class="text-body-secondary">Contact us for more info.</small></p>
+            </div>
+            <img src="https://images.pexels.com/photos/7706422/pexels-photo-7706422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-bottom" alt="delivery fleet">
+          </div>
+    </section>
+    <!-- About Us -->
+    <section>
+        <h3 class="text-center">About Us</h3>
+        <div class="card text-bg-dark">
+            <img src="https://images.pexels.com/photos/8069554/pexels-photo-8069554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img" alt="hardwork">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Our Mission</h5>
+              <p class="card-text">At Contey Delivery, our mission is to inspire, inform, and empower business owners. We are committed to delivering quality services.</p>
+              <p class="card-text"><small>Join us now!</small></p>
+            </div>
+          </div>
+    </section>
+    
+    <section>
+        <h3 class="text-center">Contact Us</h3>
+        <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Contact number</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="09121234569">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Email address</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="name@gmail.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Concern</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+    </section>
+    </body>
+</html>
